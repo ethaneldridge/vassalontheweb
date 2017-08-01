@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <script type="text/javascript" src="js/vassal.js"></script>
+    <script type="text/javascript" src="js/EventDispatcher.js"></script>
+    <script type="text/javascript" src="js/DisplayList.js"></script>
+    <script type="text/javascript" src="js/GameUtilities.js"></script>
+    <script type="text/javascript" src="js/DragAndDrop.js"></script>
+    <script type="text/javascript" src="js/GamePiece.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript">
+      window.addEventListener("load", eventWindowLoaded, false);	
+      function eventWindowLoaded () {
+        init();
+      }
+    </script>
+
+
+  </head>
+  <body>
+    <div id="state"></div>
+    <canvas id="canvasMap" width="1000" height="2000" style="background-color:#efefef;cursor:default">
+      Canvas not supported
+    </canvas>
+    <div id="demo">Demo here</demo>
+  </body>
+</html>
